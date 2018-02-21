@@ -1,0 +1,17 @@
+body{
+    background-color:#eee;
+}
+
+.gametitle{text-align: center;
+background-color: azure;}
+
+.goalnumber{
+    width: 200px;
+    height:200px;
+    background-color: azure;
+}
+
+.scorekeeper{
+    width: 150px;
+    background-color: azure;
+}
