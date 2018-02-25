@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <title>Gemstone Collector Game</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="stye.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron heading">
         <h1 class="display-4">Gemstone Collector Game!</h1>
       </div>
 
@@ -48,18 +48,17 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Your Total</h5>
-        <span clas="yourtotal">15</span>
+        <span class="yourtotal">15</span>
       </div>
     </div>
   </div>
   </div>
   <div class="row">
     <div class="col-12">
-      <div class="card" style="width: 18rem;">
+      <div class="card counters" style="width: 18rem;">
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
+    <li class="list-group-item wincounter">Wins:</li>
+    <li class="list-group-item losscounter">Losses:</li>
   </ul>
 </div>
 
@@ -70,17 +69,17 @@
 
 <div class="row">
 
-  <div class="col-12">
-        <button class="btn">
+  <div class="col-lg-12">
+        <button class="btn gemBlue">
             <img  src="assets/images/lapis-lazuli-gemstone-healing-properties-300x300.jpg" width="150px" alt="gem-1">
         </button>
-        <button class="btn">
+        <button class="btn gemGreen">
             <img src="assets/images/malachite-crystal-gemstone-healing-properties-300x300.jpg" width="150px" alt="gem-2">
         </button>
-        <button class="btn">
+        <button class="btn gemPink">
             <img src="assets/images/rose-quartz-1.jpg" width="150px" alt="gem-3">
         </button>
-        <button class="btn">
+        <button class="btn gemGold">
             <img src="assets/images/tiger-eye-300x300.jpg" width="150px" alt="gem-4">
         </button>
 
@@ -102,6 +101,6 @@
 
       </div>
       <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-      <script type="text/javascript" link="assets/javascript/game.ls"></script>
+      <script type="text/javascript" src="assets/javascript/game.js"></script>
   </body>
 </html>

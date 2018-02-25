@@ -1,0 +1,26 @@
+
+
+.counters{
+  margin-top:20px;
+
+}
+
+.targetnumber{
+  font-size: 30pt;
+}
+
+.yourtotal{
+  font-size: 30pt;
+}
+
+.heading{
+
+  background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/gemstone-background-7.jpg');
+}
+
+.heading h1{
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bolder;
+  background-color: white;
+}
